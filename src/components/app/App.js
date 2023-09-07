@@ -1,7 +1,14 @@
 import React from "react"; 
 import { Col, Row, Container } from "reactstrap"; 
+import ItemList from "../itemlist/itemList";
+import CharDetails from "../charDetails/charDetails";
+import RandomChar from "../randomChar/randomchar";
  
 const App = () => { 
+
+  state = {
+    
+  }
   return ( 
     <> 
         <Container> 
